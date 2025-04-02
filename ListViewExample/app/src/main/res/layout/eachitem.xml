@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginVertical="13dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/img1"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Python"
+            android:layout_margin="7dp"
+            android:padding="7dp"
+            android:textSize="25dp"
+            />
+
+        <TextView
+            android:id="@+id/Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:padding="7dp"
+            android:textSize="15dp"
+            android:text="This is used for Ai and Ml" />
+    </LinearLayout>
+
+</LinearLayout>
