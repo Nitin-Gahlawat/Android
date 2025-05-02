@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#454343"
+            android:gravity="center"
+            android:text="Image Viewer"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            app:cornerRadius="15dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            tools:listitem="@layout/view_items" />
+
+    </LinearLayout>
+</layout>
