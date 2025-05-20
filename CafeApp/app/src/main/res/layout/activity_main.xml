@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Welcome To My cafe"
+    android:gravity="center"
+    android:textSize="40dp"
+    android:layout_marginTop="10dp"
+    android:textStyle="bold"
+
+/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the items to order"
+        android:gravity="center"
+        android:paddingVertical="20dp"
+
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/or1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="15dp"
+        android:hint="order1" />
+
+    <EditText
+        android:id="@+id/or2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="15dp"
+        android:hint="order2" />
+
+    <EditText
+        android:id="@+id/or3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="15dp"
+        android:hint="order3" />
+
+    <EditText
+        android:id="@+id/or4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_margin="15dp"
+        android:hint="order4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Order Now"
+
+        android:background="#AA20B7FA"
+        />
+
+</LinearLayout>
