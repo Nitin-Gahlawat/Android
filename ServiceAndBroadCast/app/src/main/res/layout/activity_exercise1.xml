@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".services.exercise.Exercise1"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/startNotification"
+            android:layout_width="match_parent"
+            android:text="start Notification Service"
+
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:text="start new service"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</layout>

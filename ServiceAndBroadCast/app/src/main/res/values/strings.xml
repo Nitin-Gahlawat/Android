@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ServiceAndBroadCast</string>
+    <string name="btnname">Stop service</string>
+</resources>
